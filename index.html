@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6aa5812788.js" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+
+    <main id="container">
+      <div class="logo">Arc-Hive</div>
+      <section id="palindrome-section">
+        <h1 class="title">Is it a Palindrome?</h1>
+        <div class="palindrome-check">
+          <label for="text-input">Enter some text to check for a palindrome:
+        </label>
+        <input class="palindrome-input" id="text-input" value="" type="text" required placeholder="Let's have a look!">
+        <button class="btn-palindrome-check" id="check-btn" onclick="myFunction()">Check</button>
+        <div class="hidden" id="result"></div>
+        <button class="hidden" id="reset" onclick="myReset()">Reset</button>
+
+
+        </div>
+
+        <div class="palindrome-definition-note"><i class='fas fa-lightbulb' style='font-size:25px;color:yellow'></i>
+        <p id="palindrome-definition">A <dfn>palindrome<dfn> is a word or sentence that is spelt the same way both forward and backward, ignoring punctuation, case, and spacing.
+        </p>
+        </div>
+
+      </section>
+
+    </main>
+  <script src="script.js"></script>
+  </body>
+
+</html>
